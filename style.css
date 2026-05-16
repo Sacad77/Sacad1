@@ -1,68 +1,83 @@
 body {
-    background-color: #F9F0FE;
-    font-family: Arial, sans-serif;
+    background-color: #f4f7f6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 20px;
+    color: #333;
 }
 
 .container {
-    max-width: 800px;
+    max-width: 850px;
     margin: auto;
     background: white;
-    padding: 20px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
 }
 
 .header {
-    background-color: #833B83;
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
     color: white;
-    padding: 20px;
-    font-size: 32px;
-    font-weight: bold;
+    padding: 40px 20px;
+    font-size: 36px;
+    font-weight: 800;
     text-align: center;
+    border-radius: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .nav {
-    padding: 10px 0;
-    border-bottom: 1px solid #ddd;
-    margin-bottom: 20px;
+    padding: 15px 0;
+    text-align: center;
+    border-bottom: 2px solid #eee;
+    margin-bottom: 30px;
 }
 
 .nav a {
-    margin-right: 20px;
-    color: #833B83;
+    margin: 0 15px;
+    color: #2a5298;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 600;
+    transition: 0.3s;
 }
 
 .nav a:hover {
-    text-decoration: underline;
+    color: #1e3c72;
+    border-bottom: 2px solid #1e3c72;
 }
 
 .section-title {
-    background-color: #AD77C3;
+    background-color: #2a5298;
     color: white;
-    padding: 10px;
-    font-size: 22px;
-    margin-top: 25px;
+    padding: 12px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 30px;
+    border-left: 6px solid #1e3c72;
 }
 
 p {
-    font-size: 18px;
-    line-height: 1.6;
-    color: #333;
+    font-size: 17px;
+    line-height: 1.8;
+    color: #555;
+}
+
+ul {
+    padding-left: 20px;
 }
 
 ul li {
     font-size: 16px;
-    margin-bottom: 8px;
+    margin-bottom: 12px;
+    color: #444;
 }
 
 .footer {
-    margin-top: 30px;
-    font-size: 14px;
+    margin-top: 40px;
+    font-size: 13px;
     text-align: center;
-    color: #777;
+    color: #888;
     border-top: 1px solid #eee;
-    padding-top: 10px;
+    padding-top: 20px;
 }
